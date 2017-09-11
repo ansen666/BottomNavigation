@@ -86,7 +86,7 @@ public class MainActivity extends FragmentActivity {
 				homeFragment = new HomeFragment();
 				transaction.add(R.id.main_container,homeFragment);
 			}else {
-				transaction.show(homeFragment);
+				transaction.show(homeFragment);//显示首页的Fragment
 			}
 		}else if(resId==R.id.tv_dynamic){//动态
 			if(dynamicFragment==null){
