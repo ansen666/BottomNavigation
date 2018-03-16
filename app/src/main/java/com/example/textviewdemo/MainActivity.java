@@ -38,7 +38,7 @@ public class MainActivity extends FragmentActivity {
 		tvMain.setSelected(true);//首页默认选中
 		tvDynamic = (TextView) findViewById(R.id.tv_dynamic);
 		tvMessage = (TextView) findViewById(R.id.tv_message);
-		tvPerson = (TextView) findViewById(R.id.tv_person);
+		tvPerson = (TextView ) findViewById(R.id.tv_person);
 
 		//默认加载首页
 		homeFragment = new HomeFragment();
